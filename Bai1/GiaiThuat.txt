@@ -1,0 +1,22 @@
+Giải thuật là gì: 
+ - Giải thuật là tập hợp hữu hạn các câu lệnh để thực hiện một vấn đề nào đó theo một trình tự để có được kết quả 
+ - Một số giải thuật quan trọng : 
+	+ Sắp xếp
+	+ Tìm kiếm
+	+ Chèn
+	+ Xóa
+	+ Cập nhập
+ - Độ phức tạp giải thuật
+	+ phụ thuộc và nhân tố thời gian và bộ nhớ : 
+		- thời gian : được đánh giá bằng số phép tính thực hiện
+		- bộ nhớ : lượng bộ nhớ tối đa mà cần để thực hiện
+	-> độ phức tạp của một giải thuật là hàm về quan hệ giữa thời gian chạy và lượng bộ nhớ cần sử dụng để thực hiện bài toán 
+
+ - Độ phức tạp bộ nhớ trong phân tích giải thuật
+	Là lượng bộ nhớ sử dụng cho toàn bộ vòng đời của giải thuật . Gồm
+		+ phần cố định : là phần cần để lưu dữ liệu và các biến nào đó. vd: hằng, biến
+		+ phần biến đổi :là lượng bộ nhớ cần thiết bởi các biến có kích cỡ phụ thuộc vào kích cỡ của vấn đề. vd bộ nhớ động,cấp phát bộ nhớ đệ quy
+
+ - Độ phức tạp thời gian
+	là lượng thời gian chạy cần thiết từ khi bắt đầu đến kết thúc chương trình 
+	
