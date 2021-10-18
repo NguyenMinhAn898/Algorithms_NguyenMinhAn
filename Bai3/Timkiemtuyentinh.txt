@@ -1,0 +1,1 @@
+Tìm kiếm tuyến tính là kiểm tra từng phần tử trong mảng so với yêu cầu đến khi tìm ra or kết thúc khi không tìm thấy
