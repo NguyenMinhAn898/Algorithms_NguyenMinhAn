@@ -1,0 +1,3 @@
+Là giải thuật dựa trên in-place(không phát sinh thêm bộ nhớ phụ)
+Là việc chèn một phần tử vào danh sách con đã được sắp xếp sao cho phù hợp nhất
+Danh sách con luôn được sắp xếp
