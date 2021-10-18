@@ -1,0 +1,2 @@
+Là giải thuật sắp xếp dựa trên sự so sánh giữa 2 phần tử liền kề 
+Là giải thuật chậm nhất
