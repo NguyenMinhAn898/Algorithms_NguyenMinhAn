@@ -1,0 +1,10 @@
+Mảng :
+ - Gồm : 
+	+ Phần tử : mỗi mục lưu trữ trong mảng, các bản ghi có cùng kiểu dữ liệu
+	+ Chỉ mục : là vị trí của từng phần tử, chỉ mục bắt đầu từ 0
+ - Các phép toán cơ bản:
+	+ Duyệt: in ra toàn bộ phần tử của mảng
+	+ Chèn: thêm 1 phần tử vào vị trí đã chỉ định
+	+ Xóa : Xóa 1 phần tử tại chỉ mục
+	+ Tìm kiếm: tìm kiếm 1 phần tử bằng giá trị hoặc chỉ mục
+	+ Cập nhập: Cập nhập giá trị của một phần tử nào đó
