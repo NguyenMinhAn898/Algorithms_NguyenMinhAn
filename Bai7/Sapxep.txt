@@ -1,0 +1,12 @@
+Giải thuật sắp xếp là giải thuật dùng để sắp xếp dữ liệu theo yêu cầu như tăng dần, giảm dần, không giảm , ...
+Phân loại :
+ - Giải thuật sắp xếp in-place và not-in-place :
+	+ in-place : là giải thuật không yêu cầu thêm bộ nhớ phụ, việc sắp xếp được tiến hành trong trính bộ nhớ đã khai báo trước đó
+	+ not-in-place: là giải thuật cần thêm bộ nhớ mà có thể lớn hơn or bằng với số phần tử đang được sắp xếp
+ - Giải thuật sắp xếp cố định hoặc sắp xếp so sánh :
+	+ sắp xếp cố định : khi vị trí tương đối giữa các phần tử bằng nhau không bị thay đổi.
+	+ sắp xếp so sánh : vị trí tương đối giữa các phần tử bằng nhau sẽ bị thay đổi.
+
+ - Giải thuật sắp xếp Adaptive và Non-Adaptive
+	+ Adaptive : là tận dụng các phần tử đã được sắp xếp trước đó và cố gắng không thay thứ tự của chúng
+	+ Non-Adaptive : sắp xếp lại từ đầu và không ghi nhận các các phần tử đã được sắp xếp
