@@ -1,0 +1,7 @@
+Dựa trên in-place
+Danh sách được chia làm 2 phần :
+	+ phần được sắp xếp (bên trái)
+	+ phần chưa được sắp xếp (bên phải)
+- kết thúc mỗi vòng sắp xếp : 
+	+ phần trái sẽ tăng thêm 1 phần tử và dãy đó đã được sắp xếp
+	+ phần bên phải sẽ giảm đi 1 phần tử tới khi kết thúc

@@ -1,0 +1,16 @@
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\Bai10\SelectionSort\SelectionSort\bin\Debug\net5.0\SelectionSort.exe
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\Bai10\SelectionSort\SelectionSort\bin\Debug\net5.0\SelectionSort.deps.json
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\Bai10\SelectionSort\SelectionSort\bin\Debug\net5.0\SelectionSort.runtimeconfig.json
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\Bai10\SelectionSort\SelectionSort\bin\Debug\net5.0\SelectionSort.runtimeconfig.dev.json
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\Bai10\SelectionSort\SelectionSort\bin\Debug\net5.0\SelectionSort.dll
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\Bai10\SelectionSort\SelectionSort\bin\Debug\net5.0\ref\SelectionSort.dll
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\Bai10\SelectionSort\SelectionSort\bin\Debug\net5.0\SelectionSort.pdb
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\Bai10\SelectionSort\SelectionSort\obj\Debug\net5.0\SelectionSort.csproj.AssemblyReference.cache
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\Bai10\SelectionSort\SelectionSort\obj\Debug\net5.0\SelectionSort.GeneratedMSBuildEditorConfig.editorconfig
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\Bai10\SelectionSort\SelectionSort\obj\Debug\net5.0\SelectionSort.AssemblyInfoInputs.cache
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\Bai10\SelectionSort\SelectionSort\obj\Debug\net5.0\SelectionSort.AssemblyInfo.cs
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\Bai10\SelectionSort\SelectionSort\obj\Debug\net5.0\SelectionSort.csproj.CoreCompileInputs.cache
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\Bai10\SelectionSort\SelectionSort\obj\Debug\net5.0\SelectionSort.dll
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\Bai10\SelectionSort\SelectionSort\obj\Debug\net5.0\ref\SelectionSort.dll
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\Bai10\SelectionSort\SelectionSort\obj\Debug\net5.0\SelectionSort.pdb
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\Bai10\SelectionSort\SelectionSort\obj\Debug\net5.0\SelectionSort.genruntimeconfig.cache
