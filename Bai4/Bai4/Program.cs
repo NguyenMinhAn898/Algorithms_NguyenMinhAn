@@ -10,20 +10,27 @@ namespace Bai4
             Console.Write("Nhap ten can tim :");
             String nameProduct = Console.ReadLine();
             List<Product> listProduct = fetchData();
-            Product pr = findProduct(listProduct, nameProduct);
-            if (pr.Name == null)
+            Product product = findProduct(listProduct, nameProduct);
+            if (product.Name == null)
             {
                 Console.WriteLine("Khong ton tai san pham nao ten : " + nameProduct);
             }
             else {
-                Console.WriteLine( "Thong tin san pham : \n"+" Name : " + pr.Name +"\n"+ " Price : " + pr.Price + "\n" + " Quanlity : " + pr.Quanlity);
+                Console.WriteLine( "Thong tin san pham : \n"+" Name : " + product.Name +"\n"+ " Price : " + product.Price + "\n" + " Quanlity : " + product.Quanlity);
             }
         }
         static Product findProduct(List<Product> listProduct, String nameProduct)
         {
-            Product pr = listProduct.Find(p => p.Name.Equals(nameProduct));
-            if (pr == null) return new Product();
-            return pr;
+            Product ouput = new Product();
+            //Product pr = listProduct.Find(p => p.Name.Equals(nameProduct));
+            foreach(Product product in listProduct)
+            {
+                if (product.Name.Equals(nameProduct))
+                {
+                    ouput = product;
+                };
+            }
+            return ouput;
         }
         /*
          * Ham create data fetch
