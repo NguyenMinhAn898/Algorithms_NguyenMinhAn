@@ -21,16 +21,16 @@ namespace Bai5
             }
 
             listProduct = fetchDataProduct();
-            List<Product> listByCateId = findProductByCategory(listProduct, cateId);
-            if(listByCateId.Count == 0)
+            List<Product> listProductByPrice = findProductByCategory(listProduct, cateId);
+            if(listProductByPrice.Count == 0)
             {
                 Console.WriteLine("Khong ton tai danh muc nao .");
             }
             else
             {
-                foreach (Product pr in listByCateId)
+                foreach (Product product in listProductByPrice)
                 {
-                    Console.WriteLine("Thong tin san pham : " + " Name : " + pr.Name + " Price : " + pr.Price + " Quanlity : " + pr.Quanlity);
+                    Console.WriteLine("Thong tin san pham : " + " Name : " + product.Name + " Price : " + product.Price + " Quanlity : " + product.Quanlity);
                 }
             }
             
@@ -39,26 +39,28 @@ namespace Bai5
         }
         static List<Product> findProductByCategory(List<Product> listProduct, int categoryId)
         {
-            List<Product> listpr = new List<Product>();
-            if(categoryId <= 0)
+            List<Product> ouput = new List<Product>();
+                        
+            //   listpr = listProduct.FindAll(p => p.CategoryId.Equals(categoryId));
+            foreach(Product product in listProduct)
             {
-                Console.WriteLine("Id Danh muc khong hop le .");
+                if(product.CategoryId == categoryId)
+                {
+                    ouput.Add(product);
+                }
             }
-            else
-            {
-               listpr = listProduct.FindAll(p => p.CategoryId.Equals(categoryId));
-            }
-            return listpr;
+            
+            return ouput;
         }
 
         static List<Category> fetchDataCategory()
         {
-            List<Category> listCate = new List<Category>();
-            listCate.Add(new Category(1, "Comuter"));
-            listCate.Add(new Category(2, "Memory"));
-            listCate.Add(new Category(3, "Card"));
-            listCate.Add(new Category(4, "Acsesory"));
-            return listCate;
+            List<Category> listCategory = new List<Category>();
+            listCategory.Add(new Category(1, "Comuter"));
+            listCategory.Add(new Category(2, "Memory"));
+            listCategory.Add(new Category(3, "Card"));
+            listCategory.Add(new Category(4, "Acsesory"));
+            return listCategory;
         }
 
         static List<Product> fetchDataProduct()
