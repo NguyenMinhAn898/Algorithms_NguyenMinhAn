@@ -12,29 +12,36 @@ namespace Bai6
             // Chua su ly conver chuoi qua so 
             int price = Convert.ToInt32(Console.ReadLine());
 
-            List<Product> listpr = fetchDataProduct();
+            List<Product> listProduct = fetchDataProduct();
 
-            List<Product> listByPrice = findProductByPrice(listpr, price);
+            List<Product> listProductByPrice = findProductByPrice(listProduct, price);
 
-            if (listByPrice.Count == 0)
+            if (listProductByPrice.Count == 0)
             {
                 Console.WriteLine("Khong co san pham nao thoa man");
             }
             else
             {
                 Console.WriteLine("Danh sach san pham co gia nho hon " + price + " :");
-                foreach(Product pr in listByPrice)
+                foreach(Product product in listProductByPrice)
                 {
-                    Console.WriteLine(" Ten san pham : " + pr.Name );
+                    Console.WriteLine(" Ten san pham : " + product.Name );
                 }
             }
         }
 
         static List<Product> findProductByPrice(List<Product> listProduct, double price)
         {
-            List<Product> listPr = new List<Product>();
-            listPr = listProduct.FindAll(p => p.Price <= price);
-            return listPr;
+            List<Product> output = new List<Product>();
+            //listPr = listProduct.FindAll(p => p.Price <= price);
+            foreach(Product product in listProduct)
+            {
+                if(product.Price <= price)
+                {
+                    output.Add(product);
+                }
+            }
+            return output;
         }
 
         static List<Category> fetchDataCategory()
