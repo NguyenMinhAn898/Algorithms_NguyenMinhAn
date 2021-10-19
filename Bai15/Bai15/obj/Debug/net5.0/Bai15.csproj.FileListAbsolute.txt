@@ -1,0 +1,16 @@
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\Bai15\Bai15\obj\Debug\net5.0\Bai15.csproj.AssemblyReference.cache
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\Bai15\Bai15\obj\Debug\net5.0\Bai15.GeneratedMSBuildEditorConfig.editorconfig
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\Bai15\Bai15\obj\Debug\net5.0\Bai15.AssemblyInfoInputs.cache
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\Bai15\Bai15\obj\Debug\net5.0\Bai15.AssemblyInfo.cs
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\Bai15\Bai15\obj\Debug\net5.0\Bai15.csproj.CoreCompileInputs.cache
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\Bai15\Bai15\bin\Debug\net5.0\Bai15.exe
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\Bai15\Bai15\bin\Debug\net5.0\Bai15.deps.json
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\Bai15\Bai15\bin\Debug\net5.0\Bai15.runtimeconfig.json
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\Bai15\Bai15\bin\Debug\net5.0\Bai15.runtimeconfig.dev.json
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\Bai15\Bai15\bin\Debug\net5.0\Bai15.dll
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\Bai15\Bai15\bin\Debug\net5.0\ref\Bai15.dll
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\Bai15\Bai15\bin\Debug\net5.0\Bai15.pdb
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\Bai15\Bai15\obj\Debug\net5.0\Bai15.dll
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\Bai15\Bai15\obj\Debug\net5.0\ref\Bai15.dll
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\Bai15\Bai15\obj\Debug\net5.0\Bai15.pdb
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\Bai15\Bai15\obj\Debug\net5.0\Bai15.genruntimeconfig.cache
