@@ -1,0 +1,15 @@
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\B21\B21\bin\Debug\net5.0\B21.exe
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\B21\B21\bin\Debug\net5.0\B21.deps.json
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\B21\B21\bin\Debug\net5.0\B21.runtimeconfig.json
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\B21\B21\bin\Debug\net5.0\B21.runtimeconfig.dev.json
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\B21\B21\bin\Debug\net5.0\B21.dll
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\B21\B21\bin\Debug\net5.0\ref\B21.dll
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\B21\B21\bin\Debug\net5.0\B21.pdb
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\B21\B21\obj\Debug\net5.0\B21.GeneratedMSBuildEditorConfig.editorconfig
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\B21\B21\obj\Debug\net5.0\B21.AssemblyInfoInputs.cache
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\B21\B21\obj\Debug\net5.0\B21.AssemblyInfo.cs
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\B21\B21\obj\Debug\net5.0\B21.csproj.CoreCompileInputs.cache
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\B21\B21\obj\Debug\net5.0\B21.dll
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\B21\B21\obj\Debug\net5.0\ref\B21.dll
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\B21\B21\obj\Debug\net5.0\B21.pdb
+F:\MyWork\AspNet\DevFast\Learning\Algorithms\B21\B21\obj\Debug\net5.0\B21.genruntimeconfig.cache
