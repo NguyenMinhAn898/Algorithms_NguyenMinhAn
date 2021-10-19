@@ -14,8 +14,7 @@ namespace Bai22
             double rate = double.Parse(Console.ReadLine());
 
             Console.Write("Tinh theo de quy: ");
-            monney = money;
-            Console.WriteLine(calMonth2(2*money, rate));
+            Console.WriteLine(calMonth2(money, rate));
 
             Console.Write("Tinh khong de quy: ");
             Console.WriteLine(calMonth2(money, rate));
@@ -23,17 +22,16 @@ namespace Bai22
 
         /*
          * Using Recursion
+         * Lượng thay đổi lãi và gốc bằng lượng gốc
          */
-        public static double monney;
-        public static int month;
+      
         static int calMonth(double money, double rate)
         {
-            if(money <= monney)
+            if(money <= 0)
             {
-                return month;
+                return 0;
             }
-            month++;
-            return calMonth(money - money * rate / 100, rate);
+            return calMonth(money - money * rate / 100, rate)+1;
         }
 
         /*
