@@ -17,7 +17,23 @@ namespace Bai22
             Console.WriteLine(calMonth2(money, rate));
 
             Console.Write("Tinh khong de quy: ");
-            Console.WriteLine(calMonth(2*money, rate));
+            Console.WriteLine(tinhLai(money, rate));
+        }
+
+        static double tinhLai(double money,double rate)
+        {
+            double tongGocLai = 0;
+            int month = 1;
+            for(int i = month; i < 1000; i++)
+            {
+                tongGocLai = calMonth(money, rate, month);
+                if(tongGocLai >= 2 * money)
+                {
+                    break;
+                }
+                month++;
+            }
+            return month;
         }
 
         /*
@@ -25,14 +41,13 @@ namespace Bai22
          * Lượng thay đổi lãi và gốc bằng lượng gốc
          */
       
-        static int calMonth(double money, double rate)
+        static double calMonth(double money, double rate, int month)
         {
-            int temp = money * rate;
-            if(money <= 0)
+            if(month == 0)
             {
-                return 0;
+                return money;
             }
-            return calMonth(money - (money*(1+rate/100), rate) + 1;
+            return calMonth(money, rate, month-1) + calMonth(money,rate,month-1)*(rate/100);
         }
 
         /*
