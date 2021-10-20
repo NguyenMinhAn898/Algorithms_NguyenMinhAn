@@ -5,42 +5,32 @@ namespace Bai13
 {
     class Program
     {
+        public static List<Category> listCategory;
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World! Bai 13");
 
-            List<Category> listCategory = fetchDataCategory();
+            listCategory = fetchDataCategory();
             List<Product> listProduct = fetchDataProduct();
-            List<ProductChild> listProductChild = appendCategoryNameInProduct(listCategory,listProduct);
-            List<ProductChild> listSort = sortByCategoryName(listProductChild);
-            foreach(ProductChild productChild in listSort)
+            List<Product> listSort = sortByCategoryName(listProduct);
+            foreach(Product product in listSort)
             {
-                Console.WriteLine(productChild.Name + " " + productChild.Price + "CategoryName:  " + productChild.Category.Name);
+                Console.WriteLine(product.Name + " " + product.Price + " , CategoryName:  " + getCategoryName(product.CategoryId));
             }
         }
 
         /*
-         * Sắp xếp cate theo ABC
+         * Sắp xếp danh sách sản phẩm theo danh sách category abc
          */
-        static List<Category> sortCategoryByName(List<Category> listCategory)
-        {
-
-            return listCategory;
-        }
-
-        /*
-         * Sắp xếp danh sách sản phẩm theo danh sách category
-         */
-        static List<ProductChild> sortByCategoryName(List<ProductChild> listProduct)
+        static List<Product> sortByCategoryName(List<Product> listProduct)
         {
             for (int i = 1; i < listProduct.Count; i++)
             {
-                ProductChild valueInsert = listProduct[i];
+                Product valueInsert = listProduct[i];
                 int j = i-1;
 
                 while (j >= 0  
-                    && String.Compare(listProduct[j].Category.Name,valueInsert.Category.Name) >0
-                    //&& listProduct[holePosition -1].CategoryId != category.Id
+                    && String.Compare( getCategoryName(listProduct[j].CategoryId), getCategoryName(valueInsert.CategoryId)) >0
                     )
                 {
                     listProduct[j+1] = listProduct[j];
@@ -54,27 +44,16 @@ namespace Bai13
             return listProduct;
         }
 
-        static List<ProductChild> appendCategoryNameInProduct(List<Category> listCategory, List<Product> listProduct)
+        static String getCategoryName(int categoryID)
         {
-            List<ProductChild> ouput = new List<ProductChild>();
             foreach(Category cate in listCategory)
             {
-                foreach(Product product in listProduct)
+                if(cate.Id == categoryID)
                 {
-                    if(product.CategoryId == cate.Id)
-                    {
-                        ProductChild pr = new ProductChild();
-                        pr.Category = cate;
-                        pr.Name = product.Name;
-                        pr.Price = product.Price;
-                        pr.Quanlity = product.Quanlity;
-                        pr.CategoryId = product.CategoryId;
-                        ouput.Add(pr);
-                    }
+                    return cate.Name;
                 }
             }
-
-            return ouput;
+            return null;
         }
        
 
@@ -141,12 +120,5 @@ namespace Bai13
             Quanlity = quanlity;
             CategoryId = categoryId;
         }
-    }
-    /*
-     *  Class Product Child
-     */
-    class ProductChild : Product
-    {
-        public Category Category { get; set; }
     }
 }

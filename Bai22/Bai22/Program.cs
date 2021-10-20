@@ -17,7 +17,7 @@ namespace Bai22
             Console.WriteLine(calMonth2(money, rate));
 
             Console.Write("Tinh khong de quy: ");
-            Console.WriteLine(calMonth2(money, rate));
+            Console.WriteLine(calMonth(2*money, rate));
         }
 
         /*
@@ -27,11 +27,12 @@ namespace Bai22
       
         static int calMonth(double money, double rate)
         {
+            int temp = money * rate;
             if(money <= 0)
             {
                 return 0;
             }
-            return calMonth(money - money * rate / 100, rate)+1;
+            return calMonth(money - (money*(1+rate/100), rate) + 1;
         }
 
         /*
