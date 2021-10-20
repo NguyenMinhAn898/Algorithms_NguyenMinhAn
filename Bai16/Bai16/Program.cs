@@ -9,41 +9,32 @@ namespace Bai16
         {
             Console.WriteLine("Hello World! Bai 15");
             List<Product> listproduct = fetchDataProduct();
-            double maxprice = maxPrice(listproduct);
-            List<Product> listProductByMaxPrice = maxByPrice(listproduct, maxprice);
+            List<Product> listProductByMaxPrice = maxByPrice(listproduct);
             foreach(Product product in listProductByMaxPrice)
             {
                 Console.WriteLine(product.Name + " " + product.Price);
 
             }
         }
-        /*
-         * Giả sử giá không phải duy nhất có lặp lại
-         */
-        static double maxPrice(List<Product> listProduct)
-        {
-            double maxPrice = listProduct[0].Price;
-            for(int i = 1; i< listProduct.Count; i++)
-            {
-                if(listProduct[i].Price > maxPrice)
-                {
-                    maxPrice = listProduct[i].Price;
-                }
-            }
-            return maxPrice;
-        }
-
+        
         /*
          * Tim cac san pham co gia lon nhat
          */
-        static List<Product> maxByPrice(List<Product> listProduct, double maxPrice)
+        static List<Product> maxByPrice(List<Product> listProduct)
         {
             List<Product> output = new List<Product>();
-            for(int i = 0; i < listProduct.Count; i++)
+            output.Add(listProduct[0]);
+            double maxprice = listProduct[0].Price;
+            for(int i = 1; i < listProduct.Count; i++)
             {
-                if(listProduct[i].Price == maxPrice)
+                if(listProduct[i].Price == maxprice)
                 {
                     output.Add(listProduct[i]);
+                }else if(listProduct[i].Price > maxprice)
+                {
+                    output.Clear();
+                    output.Add(listProduct[i]);
+                    maxprice = listProduct[i].Price;
                 }
             }
             return output;
