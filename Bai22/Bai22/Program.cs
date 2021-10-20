@@ -23,8 +23,8 @@ namespace Bai22
         static double tinhLai(double money,double rate)
         {
             double tongGocLai = 0;
-            int month = 1;
-            for(int i = month; i < 1000; i++)
+            int month = 0;
+            while(true)
             {
                 tongGocLai = calMonth(money, rate, month);
                 if(tongGocLai >= 2 * money)
@@ -33,6 +33,16 @@ namespace Bai22
                 }
                 month++;
             }
+
+            //for(int i = month; i < 10000; i++)
+            //{
+            //    tongGocLai = calMonth(money, rate, month);
+            //    if(tongGocLai >= 2 * money)
+            //    {
+            //        break;
+            //    }
+            //    month++;
+            //}
             return month;
         }
 
